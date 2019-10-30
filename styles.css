@@ -112,9 +112,10 @@ a {
     text-align: center;
 }
 #nav-wrap #nav-bar .logo-img{
-  flex:20%;
-    height:150px;
-    width: 150px;
+    flex:20%;
+    height:100px;
+    width: 100px;
+    
     
 }
 
