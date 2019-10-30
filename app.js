@@ -1,7 +1,9 @@
-const hamburger = document.querySelector("#nav-wrap #nav-bar #toggle-img");
+const hamburger = document.querySelector(".hamburger");
+const test = document.querySelector(".brand")
 
-const navLinks = document.querySelector(".nav-side");
+const navSide = document.querySelector(".nav-side");
 
 hamburger.addEventListener("click", () =>{
-    navLinks.classList.toggle("open");
+    navSide.classList.toggle("open");
 });
+

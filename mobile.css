@@ -2,7 +2,7 @@ h1{
     font-size: 3rem;
     /* color: var(--main-h1-color); */
 }
-#nav-wrap #nav-bar ul li {
+#nav-wrap .nav-links li {
     list-style: none;
     margin-right:0.5rem;
     font-size: 1.5rem;
@@ -11,25 +11,39 @@ h1{
   
 }
 
-#nav-wrap #nav-bar .logo-img{
+#nav-wrap .hamburger{
+    z-index: 999;
+}
+#nav-wrap .hamburger .line{
+ width: 30px;
+ height: 3px;
+ background: #ffffff;
+ margin: 5px;   
+ 
+}
+
+/* #nav-wrap #nav-bar .logo-img{
     flex:20%;
       height:70px;
       width: 70px;
       
-  }
+  } */
   
 
-#nav-wrap #nav-bar #toggle-img{
-   background-color: #DEC79B;
+#nav-wrap .hamburger{
+   /* background-color: #DEC79B;
    height: 30px;
     width: 30px;
    background-image: url("hamburger.svg");
    background-size: 100%;
    background-position: center;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; */
    cursor: pointer;
+   align-self: center;
+   margin-right: 10px;
+   
    display: block;
-   margin-left: auto;
+  
 
    
    
@@ -45,10 +59,11 @@ h1{
        height: 50vh;
        width: 80vw;
        /* margin: 0 auto; */
-       visibility: hidden;
+       visibility: visible;
        position: fixed;
-       /* left: 10vw; */
-       
+       top: 10vh;
+        /* left: 10vw;  */
+        
        
     }
 
@@ -73,5 +88,6 @@ h1{
         border-radius: 10%;
         width: 80vw;
         margin: 1rem 10vw;
+        
       
     }
