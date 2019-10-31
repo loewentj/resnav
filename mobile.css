@@ -7,6 +7,7 @@ h1{
     margin-right:0.5rem;
     font-size: 1.5rem;
     display: none;
+    
    
   
 }
@@ -64,7 +65,7 @@ h1{
         width: 50px;
         height: 40px;
         margin-right: 1rem;
-        align-self: center;;
+        align-self: center;
     }
 
     .nav-side ul li a {
@@ -73,6 +74,7 @@ h1{
         font-size: 1.5rem;
         line-height: 3;
         color: var(--main-h1-color);
+       
     }
 
     .open{

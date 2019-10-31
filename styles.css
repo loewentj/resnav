@@ -101,9 +101,22 @@ a {
     height: 50px;
     
     margin-right: 1rem;
+    align-self: center;
 }
 #nav-wrap .nav-links .brand{
  margin-right: auto;
+}
+
+/* This one */
+#nav-wrap .nav-links .contact img{
+        width: 80px;
+        height: 70px;
+        margin-right: 1rem;
+        /* align-self: center; */
+       position: relative;
+       top: 2rem;
+       left: 1.5rem;;
+
 }
 
 #nav-wrap .nav-links li {
@@ -113,6 +126,7 @@ a {
     font-family: var(--utility-font);
     margin-right: auto;
     align-self: flex-end;
+    /* margin-left: 5rem; */
     
   
 
