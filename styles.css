@@ -97,8 +97,9 @@ a {
 }
 
 #nav-wrap .nav-links .logo{
-    width: 5%;
-    margin-right: 2rem;
+    width: 5vw;
+    height:8vh;
+    margin-right: 1rem;
 }
 #nav-wrap .nav-links .brand{
  margin-right: auto;
