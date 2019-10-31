@@ -109,13 +109,13 @@ a {
 
 /* This one */
 #nav-wrap .nav-links .contact img{
-        width: 80px;
-        height: 70px;
+        width: 60px;
+        height: 50px;
         margin-right: 1rem;
         /* align-self: center; */
        position: relative;
        top: 2rem;
-       left: 1.5rem;;
+       left: 0.5rem;
 
 }
 
