@@ -22,22 +22,11 @@ h1{
  
 }
 
-/* #nav-wrap #nav-bar .logo-img{
-    flex:20%;
-      height:70px;
-      width: 70px;
-      
-  } */
+
   
 
 #nav-wrap .hamburger{
-   /* background-color: #DEC79B;
-   height: 30px;
-    width: 30px;
-   background-image: url("hamburger.svg");
-   background-size: 100%;
-   background-position: center;
-   background-repeat: no-repeat; */
+   
    cursor: pointer;
    align-self: center;
    margin-right: 10px;
@@ -58,11 +47,10 @@ h1{
        background-color:#DEC79B ;
        height: 50vh;
        width: 80vw;
-       /* margin: 0 auto; */
-       visibility: visible;
+    visibility: visible;
        position: fixed;
        top: 10vh;
-        /* left: 10vw;  */
+     
         
        
     }
