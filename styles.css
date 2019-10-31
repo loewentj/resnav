@@ -118,6 +118,10 @@ a {
        position: relative;
        top: 2rem;
        right: 1.3rem;
+       animation-name: shake;
+       animation-duration: 10s;
+        animation-timing-function: ease-in;
+       animation-iteration-count: infinite;
 
 }
 
@@ -187,3 +191,53 @@ a {
     
 
 }
+
+
+@keyframes shake{
+    0% {transform: rotate(0);}
+    1%{transform: rotate(0);}
+    2%{transform: rotate(-15deg);}
+    3%{transform: rotate(15deg);}
+    4%{transform: scale(1.5);}
+    5%{transform: rotate(-15deg);}
+    6%{transform: rotate(15deg);}
+    7%{transform: rotate(-15deg);}
+    8%{transform: scale(1.5);}
+    9%{transform: rotate(15deg);}
+    10%{transform: rotate(0);}
+    20%{transform: rotate(0);}
+    30%{transform: rotate(0);}
+    40%{transform: rotate(0);}
+    50%{transform: rotate(0);}
+    60%{transform: rotate(0);}
+    70%{transform: rotate(0);}
+    80%{transform: rotate(0);}
+    91%{transform: rotate(0);}
+    92%{transform: rotate(-15deg);}
+    93%{transform: rotate(15deg);}
+    94%{transform: scale(1.5);}
+    95%{transform: rotate(-15deg);}
+    96%{transform: rotate(15deg);}
+    97%{transform: rotate(-15deg);}
+    98%{transform: scale(1.5);}
+    99%{transform: rotate(15deg);}
+    100%{transform: rotate(-15deg);}
+
+   
+
+}
+
+
+/* @keyframes shake{
+    0% {transform: rotate(0);}
+    15% {transform: rotate(-15deg);}
+    30% {transform: rotate(15deg);}
+    35% {transform: scale(1.5);}
+    45% {transform: rotate(-15deg);}
+    60% {transform: rotate(15deg);}
+    75% {transform: rotate(-15deg);}
+    76% {transform: scale(1.5);}
+    90% {transform: rotate(15deg);}
+    100% {transform: rotate(-15deg);}
+
+} */
