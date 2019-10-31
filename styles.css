@@ -89,7 +89,7 @@ a {
 
 
 #nav-wrap .nav-links {
-    display: flex;   
+    display: flex;  
     background-color: #333333;
     width: 100%;
     
@@ -105,6 +105,8 @@ a {
 }
 #nav-wrap .nav-links .brand{
  margin-right: auto;
+ align-self: center;
+ 
 }
 
 /* This one */
@@ -115,7 +117,7 @@ a {
         /* align-self: center; */
        position: relative;
        top: 2rem;
-       left: 0.5rem;
+       /* left: 0.3rem; */
 
 }
 
