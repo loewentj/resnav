@@ -41,6 +41,7 @@
     --content-font: 'Montserrat', sans-serif;
     --heading-font: 'Roboto', sans-serif;
     --utility-font: 'Poppins', sans-serif;
+    
 
 }
 
@@ -48,10 +49,11 @@
 /* Utility */
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: var(--content-font);
     color: var(--main-h1-color);
     cursor: pointer;
+   
 
 
 }
@@ -64,12 +66,13 @@ a {
 
 
 #nav-wrap {
-display: flex;
-   align-items: center;
-    min-height: 10vh;
-    position: sticky;
+    display: flex;
+    align-items: center;
+    /* min-height: 10vh; */
+    position: fixed;
     top: 0;
     margin: 0 auto;
+    width: 100vw;
 
 }
 
@@ -86,8 +89,7 @@ display: flex;
 
 
 #nav-wrap .nav-links {
-    display: flex;
-   
+    display: flex;   
     background-color: #333333;
     width: 100%;
     
@@ -133,6 +135,7 @@ display: flex;
 
 .showcase {
     display: grid;
+    margin-top: 5rem;;
     justify-content: center;
     justify-items: center;
     align-items: center;
