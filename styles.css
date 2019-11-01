@@ -194,11 +194,16 @@ body::before {
 #showcase .carosel{
     grid-column: 5/9;
     grid-row: 2/4;
-    background-color: var(--uti-txt-color);
+    /* background-color: var(--uti-txt-color); */
     background-size: cover;
     border: 1px solid;
+    border-color: var(--uti-txt-color);
+    border-color: var(--main-h1-color);
+    border-radius: 10px;
     height: 100%;
     width: 100%;
+    
+    
    
     
  
