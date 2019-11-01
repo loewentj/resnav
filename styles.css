@@ -90,7 +90,7 @@ a {
 
 #nav-wrap .nav-links {
     display: flex;  
-    background-color: #333333;
+    background-color: #252422;
     width: 100%;
     
 
@@ -177,11 +177,10 @@ a {
     z-index: -1;
 
 }
-.showcase {
+#showcase {
     display: grid;
     margin-top: 5rem;;
     justify-content: center;
-    justify-items: center;
     align-items: center;
     /* grid-auto-columns: 33.3%; */
    
@@ -191,6 +190,29 @@ a {
     
 
 }
+
+#showcase .carosel{
+    grid-column: 5/9;
+    grid-row: 2/4;
+    background-color: var(--uti-txt-color);
+    background-size: cover;
+    border: 1px solid;
+    height: 100%;
+    width: 100%;
+   
+    
+ 
+}
+
+#showcase .carosel .mySlides{
+    color: var(--main-h1-color);
+    display: none;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 13%;
+    
+}
+
 
 
 @keyframes shake{
@@ -226,6 +248,8 @@ a {
    
 
 }
+
+
 
 
 /* @keyframes shake{
