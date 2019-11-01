@@ -179,7 +179,7 @@ body::before {
 }
 #showcase {
     display: grid;
-    margin-top: 5rem;;
+    margin-top: 2rem;;
     justify-content: center;
     align-items: center;
     /* grid-auto-columns: 33.3%; */
