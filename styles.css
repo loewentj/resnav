@@ -161,7 +161,7 @@ a {
 }
 
 
-.showcase::before {
+body::before {
     content: "";
     position: absolute;
     top: 0;
