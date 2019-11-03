@@ -1,0 +1,38 @@
+
+body::before {
+    
+    height: 50vh;
+    width: 100vw;
+    
+
+}
+
+
+
+#showcase .carosel{
+    grid-column: 5/8;
+    grid-row: 2/4;
+    /* background-color: var(--uti-txt-color);
+    background-size: cover; */
+    border: 1px solid;
+    border-color: var(--uti-txt-color);
+    border-color: var(--main-h1-color);
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+ 
+ 
+}
+
+#showcase .specialties{
+    
+    margin-top: 3rem;
+    font-size: 4rem;
+    margin-left: 35vw;
+      
+}
+
+#showcase .specialties span{
+    color: var(--main-h1-color);
+    font-size: 5rem;
+}
