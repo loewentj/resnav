@@ -166,7 +166,7 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-    height: 90vh;
+    height: 40vh;
     width: 100vw;
     background: url("showcase.jpg");
     background-repeat: no-repeat;
@@ -191,6 +191,18 @@ body::before {
 
 }
 
+#showcase .specialties{
+
+  font-family: var(--content-font);
+  color:var(--uti-txt-color);
+  margin-left: 35vw;
+}
+#showcase .specialties span{
+    color: var(--main-h1-color);
+    font-size: 2rem;
+}
+
+
 #showcase .carosel{
     grid-column: 5/9;
     grid-row: 2/4;
@@ -202,10 +214,7 @@ body::before {
     border-radius: 10px;
     height: 100%;
     width: 100%;
-    
-    
-   
-    
+ 
  
 }
 
