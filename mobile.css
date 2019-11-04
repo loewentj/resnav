@@ -8,6 +8,7 @@ h1{
     font-size: 1.5rem;
     display: none;
     
+    
    
   
 }
@@ -50,9 +51,13 @@ h1{
        background-color:#DEC79B ;
        height: 50vh;
        width: 80vw;
-    visibility: visible;
+        visibility: visible;
        position: fixed;
        top: 10vh;
+       pointer-events: none;
+       
+       
+       
      
         
        
@@ -60,6 +65,7 @@ h1{
 
     .nav-side ul li{
         list-style: none;
+        
        
     }
 
@@ -96,7 +102,12 @@ h1{
         border-radius: 10%;
         width: 80vw;
         margin: 1rem 10vw;
+       
       
+    }
+
+    .open2{
+        pointer-events: unset;
     }
 
     

@@ -5,6 +5,7 @@ const navSide = document.querySelector(".nav-side");
 
 hamburger.addEventListener("click", () =>{
     navSide.classList.toggle("open");
+    navSide.classList.toggle("open2");
 });
 
 
