@@ -136,9 +136,9 @@ h1{
         
     }
     #services .main-services .service-items{
-        font-size: 1rem;
-        margin-left: 1rem;
-        margin-right:1rem;
+        font-size: 0.7rem;
+        /* margin-left: 1rem;
+        margin-right:1rem; */
         justify-items: flex-start;
     }
 
@@ -151,11 +151,11 @@ h1{
         /* list-style: none; */
         font-size: 1.2rem;
         margin-top: 1rem;;
-        margin-bottom: 1rem;;
+        margin-bottom: 1rem;
         
     }
 
-    #contact .contact-form #firstname, #lastname, #question{
+    #contact .contact-form #firstname, #lastname{
         width: 90%;
         padding: 10px;
         margin: 1rem;
@@ -169,7 +169,10 @@ h1{
         width: 90%;
         /* padding: 10px;
         margin: 1.5rem; */
-        font-size: 1.3rem;
-        font-family: var(--utility-font);
+        /* font-size: 1.3rem;
+        font-family: var(--utility-font); */
+        /* padding: 10px; */
+        /* margin: 1rem; */
+      
     
     }
