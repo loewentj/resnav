@@ -55,6 +55,7 @@ h1{
        position: fixed;
        top: 10vh;
        pointer-events: none;
+       z-index:-99;
        
        
        
