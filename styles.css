@@ -246,7 +246,10 @@ body::before {
    
 }
 
-
+#services .main-services .service-items li{
+    list-style: none;
+    line-height: 1,5;
+}
 
 #services .main-services .service-items{
     
@@ -270,9 +273,10 @@ body::before {
 #services .main-services .service-items h2{
     /* list-style: none; */
     align-self: center;
-    justify-self: center;
+    /* justify-self: center; */
     margin-bottom: 0.5rem;
     margin-top: 1rem;
+    font-size: 2rem;
     
 }
 
@@ -285,6 +289,7 @@ body::before {
     
     /* align-items: center; */
     margin-bottom: 1rem;
+    margin-left: 0.5rem;
     
   
    
