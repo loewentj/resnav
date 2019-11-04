@@ -109,6 +109,7 @@ h1{
 
     .open2{
         pointer-events: unset;
+        z-index:2;
     }
 
     
