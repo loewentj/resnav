@@ -152,12 +152,18 @@
         <form action="" class="contact-form">
             <h2 class="contact-question">Ask us a question</h2>
             <div>
-                <input type="text" name="firstname" id="firstname" placeholder="Enter First Name">
+                <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
             </div>
 
             <div>
                 <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name">
             </div>
+            <div>
+                    <input type="tel" name="telephone" id="telephone" placeholder="Enter Contact Number" required>
+                </div>
+                <div>
+                        <input type="email" name="email" id="email" placeholder="Enter Contact Email">
+                    </div>
             <div>
                 <textarea name="question" id="question" cols="30" rows="5" placeholder="Enter Question"
                     maxlength="150"></textarea>
