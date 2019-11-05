@@ -1,11 +1,13 @@
 const hamburger = document.querySelector(".hamburger");
-const test = document.querySelector(".brand")
+// const test = document.querySelector(".brand")
+const fade = document.querySelector(".img-carosel");
 
 const navSide = document.querySelector(".nav-side");
 
 hamburger.addEventListener("click", () =>{
     navSide.classList.toggle("open");
     navSide.classList.toggle("open2");
+    fade.classList.toggle("fade");
 });
 
 
