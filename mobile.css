@@ -135,6 +135,11 @@ h1{
         margin-top: 10%;
         
     }
+
+    .img-carosel img{
+        width: 100%;
+    }
+    
     #services .main-services .service-items{
         font-size: 0.8rem;
         /* margin-left: 1rem;

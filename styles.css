@@ -237,7 +237,7 @@ body::before {
     margin-top: 1.5rem;
 }
 .img-carosel img{
-    width: 100%;
+    width: 500px;
 }
 
 .img-carosel .slide{
