@@ -229,6 +229,14 @@ body::before {
     
 }
 
+.img-carosel{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
 #services .main-services{
     display: flex;
     /* flex-wrap: wrap; */
