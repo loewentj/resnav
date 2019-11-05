@@ -236,6 +236,15 @@ body::before {
     justify-content: center;
     margin-top: 1.5rem;
 }
+.img-carosel img{
+    width: 100%;
+}
+
+.img-carosel .slide{
+    
+        animation:slide 10s infinite
+    
+}
 
 #services .main-services{
     display: flex;
@@ -320,7 +329,7 @@ font-size: 2.5rem;
     margin: 1rem;
     font-size: 1.3rem;
     font-family: var(--utility-font);
-    margin.5rem;
+    /* margin:5rem; */
    
 }
 
@@ -335,10 +344,17 @@ font-size: 2.5rem;
 }
 
 #contact .contact-form .submit-form{
-    padding: 10px;
-    font-size: 1rem;
+   font-size: 1rem;
+   padding: 10px;
 }
-
+    
+/* .slide{
+        animation-name: slide;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-fill-mode: initial;
+   
+} */
 
 @keyframes shake{
     0% {transform: rotate(0);}
@@ -374,6 +390,15 @@ font-size: 2.5rem;
 
 }
 
+/* @keyframes slide{
+    0%{transform: translateX(0);}
+    50%{opacity: 0.5;}
+    75%{transform: translateX(-300px);}
+    80%{opacity: 0.1;}
+    100%{opacity: 0;}
+    
+} */
+
 
 
 
@@ -390,3 +415,11 @@ font-size: 2.5rem;
     100% {transform: rotate(-15deg);}
 
 } */
+
+
+
+@keyframes slide{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
