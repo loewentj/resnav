@@ -25,3 +25,20 @@ function carousel() {
   setTimeout(carousel, 2000); 
 }
 
+
+var slideIndex = 0;
+carouselImg();
+
+function carouselImg() {
+  var i;
+  var x = document.querySelectorAll(".img-carosel .myImages");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carouselImg, 2300); 
+}
+
+
