@@ -237,8 +237,8 @@ body::before {
     justify-content: center;
     /* margin-top: 1.5rem; */
 }
-.img-carosel .myImages img{
-    width: 500px;
+.img-carosel .myImages{
+    width: 33vw;
     
 }
 
