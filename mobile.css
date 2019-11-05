@@ -155,6 +155,12 @@ h1{
         
     }
 
+    #services .main-services .service-items .first-letter{
+        color:var(--main-h1-color);
+        font-size: 1.5rem;
+        }
+        
+
     #contact .contact-form #firstname, #lastname{
         width: 90%;
         padding: 10px;
