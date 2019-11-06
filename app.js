@@ -24,7 +24,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1} 
   x[slideIndex-1].style.display = "block"; 
-  setTimeout(carousel, 2000); 
+  setTimeout(carousel, 6000); 
 }
 
 
@@ -44,7 +44,7 @@ function carouselImg() {
   x[slideIndex-1].style.display = "block";
     
   
-  setTimeout(carouselImg, 6000);
+  setTimeout(carouselImg, 3200);
   
    
 }

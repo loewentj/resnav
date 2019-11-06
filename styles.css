@@ -350,6 +350,14 @@ font-size: 2.5rem;
    
 }
 
+#contact .contact-form .contact-question{
+    font-family: var(--content-font);
+    font-size: 1.7rem;
+    color: var(--main-h1-color);
+    
+   
+}
+
 @keyframes shake{
     0% {transform: rotate(0);}
     1%{transform: rotate(0);}

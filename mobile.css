@@ -140,6 +140,7 @@ h1{
     }
     .img-carosel .myImages{
         margin-top: 1rem;
+        width: 100vw;
     }
     .img-carosel .myImages img{
         width: 80%;
